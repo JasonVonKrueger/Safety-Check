@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MailApp">
+  <Id>02B08D35-EA13-4F40-1263-038BF4D032B2</Id>
+  <Version>1.0</Version>
+  
+  <ProviderName>CSU</ProviderName>
+  
+  <DefaultLocale>en-us</DefaultLocale>
+  
+  <DisplayName DefaultValue="Safety Check 3"/>
+  
+  <Description DefaultValue="Make sure your e-mail is safe!"/>
+  
+  <Capabilities>
+    <Capability Name="Mailbox"/>
+  </Capabilities>
+
+  <DesktopSettings>
+    <SourceLocation DefaultValue="https://webservices.clayton.edu/officeapps/SafetyCheck3/AppRead/Home/home.html"/>
+    <RequestedHeight>100</RequestedHeight>
+  </DesktopSettings>
+
+  <Permissions>ReadItem</Permissions>
+  
+  <Rule xsi:type="ItemIs" ItemType="Message" />
+</OfficeApp>
